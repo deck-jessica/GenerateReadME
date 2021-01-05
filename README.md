@@ -44,7 +44,11 @@ node index.js
 `
 ## Contributors
 
+This project was created with the help of my bootcamp class materials and my tutor, as well as some research done on markdown formats, licenses and badges using [shields.io](https://shields.io/category/license), [nareans github](https://naereen.github.io/badges/), and [choose a license](https://choosealicense.com/)
+
 ## Testing
+
+This has not been set up for testing yet.
 
 ## Questions
 

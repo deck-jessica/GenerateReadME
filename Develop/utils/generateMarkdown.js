@@ -40,17 +40,23 @@ function generateMarkdown(data) {
 
   ## Usage
 
+  You can run this application using these processes:
+
   ${data.usage}
 
   ## License
 
-  ${data.license}
+  This project is created under the ${data.license} license.
 
   ## Contributors
+
+  The work presented here is my own, but I had help from these GitHub users:
 
   ${data.contributions}
 
   ## Tests
+
+  Run the following command line prompt to test this application:
 
   ${data.tests}
 
