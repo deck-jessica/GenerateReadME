@@ -12,7 +12,7 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Enter a detailed description of your project and any steps to install."
+        message: "Enter a detailed description of your project and any steps to begin using."
     },
     {
         type: "checkbox",
@@ -112,16 +112,12 @@ function init() {
   inquirer
   .prompt(questions)
   .then(answers => {
-   writeToFile('ReadMe.md', generateMD(answers))
+   writeToFile('./demo/ReadMe.md', generateMD(answers))
   })
-  .catch(error => {
-    if(error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else when wrong
-    }
-  });
-}
+  
+    };
+  
+
 
 // function call to initialize program
 init();
