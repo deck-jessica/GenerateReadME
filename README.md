@@ -4,6 +4,8 @@
 
 This is a command line application that will generate a professional readme file for users, based on their input. Once the answers are collected, the markdown file will be saved in the destination folder.
 
+![Demo generated readme](/Develop/utils/screenshotdemopage.png)
+
  ## Table of Contents
 
   *[License](#license)
